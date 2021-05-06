@@ -1,0 +1,88 @@
+<!-- main table which splits the screen into two parts-->
+<table style="width:100%">
+<tr>
+<!-- Head -->
+  <td colspan="2">
+    
+    <div class="header_logo" >
+
+      <img
+        width=max
+        height="50"
+        alt="Haidner Logo"
+        src="assets/image/haidner_logo.jpg"
+      />
+    </div>
+
+  </td>    
+
+</tr>
+
+<!-- Middle part-->
+<tr>
+
+  <!-- Navigation-->
+  <td>
+   
+    <div class="card-container">
+      <div class="card card-small">
+         <a routerLink="/software">
+          <span>Software-Entwicklung</span>
+          </a>
+      </div>
+  
+      <div class="card card-small" >
+        <a routerLink="/dokumentation">
+        <span>Dokumentation</span>
+        </a>      
+      </div>
+  
+      <div class="card card-small" >
+        <a routerLink="/labor">
+           <span>Elektronik-Labor</span>
+        </a>
+      </div>
+  
+      <div class="card card-small" >
+        <a routerLink="/tests">
+          <span>Tests</span>
+        </a>
+      </div>
+  
+      <div class="card card-small" >
+        <a routerLink="/weiterbildung">
+          <span>Weiterbildung</span>
+        </a>      
+      </div>
+  
+      <div class="card card-small">
+        <a routerLink="/impressum">
+        <span>Impressum</span>
+      </a>
+      </div>
+  
+   
+  </div> 
+  
+  </td>
+
+  <!-- Content-->
+  <td><router-outlet></router-outlet></td>
+  
+</tr>
+
+<tr>
+  <!-- Footer-->
+
+  <td colspan="2">
+
+       &copy; Copyright: Michael Haidner - This website uses Angular
+    
+  </td>
+ 
+  
+</tr>
+
+
+</table>
+
