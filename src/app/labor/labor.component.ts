@@ -3,7 +3,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-labor',
   templateUrl: './labor.component.html',
-  styleUrls: ['./labor.component.css']
+  styleUrls: [
+    '../app.component.css'
+  ]
 })
 export class LaborComponent implements OnInit {
 
