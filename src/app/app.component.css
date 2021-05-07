@@ -59,7 +59,7 @@
   .content {
     margin: 82px auto 32px;
     padding: 0 16px;
-    max-width: 960px;
+    width: 440px;
     align-items: center;
   }
 
@@ -254,6 +254,10 @@
     z-index: -10;
     width: 1920px;
   }
+  body {
+
+    max-width: 400px;
+  }
 
   td {
     vertical-align: top;
@@ -262,7 +266,7 @@
 
 
   /* Responsive Styles */
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 650px) {
 
     .card-container > *:not(.circle-link) ,
     .terminal {
