@@ -294,3 +294,10 @@
       visibility: hidden;
     }
   }
+
+  .content {
+
+    margin-left: 50px;
+    margin-right: 300px;
+
+}
