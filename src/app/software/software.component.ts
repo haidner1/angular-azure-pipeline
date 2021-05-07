@@ -2,10 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-software',
-  templateUrl: './software.component.html',
-  styleUrls: [
-    '../app.component.css'
-  ]
+  templateUrl: './software.component.html' 
 })
 export class SoftwareComponent implements OnInit {
 
