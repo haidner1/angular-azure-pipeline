@@ -3,6 +3,5 @@
         "node_modules{,/**}",
         ".vscode{,/**}"
     ],
-    "appService.deploySubpath": ".",
-    "appService.defaultWebAppToDeploy": "/subscriptions/61e041a9-7838-4193-8974-52cc1d9c3564/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/haidner"
+    "appService.deploySubpath": "."
 }
